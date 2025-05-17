@@ -1,0 +1,30 @@
+
+📄 Instructions for Using the ML Classification Pipeline with Sample Datasets
+
+You can use the following datasets with your ML pipeline. When prompted in Colab, upload the dataset (available in Datasets folder in GitHub) and select the appropriate target column from the dropdown.
+
+---
+
+1. 🍀 iris_full.csv
+   - Target Column: target
+   - Classes: 0 = Setosa, 1 = Versicolor, 2 = Virginica
+   - Features: sepal length, sepal width, petal length, petal width
+
+2. 🍷 wine_full.csv
+   - Target Column: target
+   - Classes: 0, 1, 2 (types of wine)
+   - Features: alcohol, malic_acid, ash, flavanoids, color_intensity, etc.
+
+3. 🩺 breast_cancer_full.csv
+   - Target Column: target
+   - Classes: 0 = Malignant, 1 = Benign
+   - Features: mean radius, mean texture, mean area, etc.
+
+---
+
+✅ General Notes:
+- Always select the column named "target" as the target/output when prompted.
+- The pipeline supports classification only.
+- Models available: KNN, Decision Tree, SVM
+- Saved models will automatically be named with a timestamp after training.
+
